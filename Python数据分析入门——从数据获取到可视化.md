@@ -53,6 +53,14 @@ print(data.text)
 ### 6. 编码检测
 chardet 库。
 
+### 7. r
+避免转义。
+``` python
+s = r'hello\nworld'
+print(s)
+# 结果：hello\nworld
+```
+
 ## 第三章 数据的存取与清洗
 
 
